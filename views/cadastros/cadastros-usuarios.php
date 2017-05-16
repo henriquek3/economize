@@ -17,14 +17,12 @@
 </head>
 <body>
 
-<div class="ui five item menu">
-    <a class="item active">Usuario</a>
-    <a class="item">Mercado</a>
-    <a class="item">Produto</a>
-    <a class="item">Comprar</a>
-    <a class="item">Consultar</a>
+<div class="ui four item menu">
+    <a href="cadastros-usuarios.php" class="item active">Usuario</a>
+    <a href="cadastros-mercados.php" class="item">Mercado</a>
+    <a href="cadastros-produtos.php" class="item">Produto</a>
+    <a href="cadastros-marcas.php" class="item">Marcas</a>
 </div>
-
 <div class="ui container" style="padding-top: 10px">
     <form class="ui form" method="post" action="../../controllers/CUsuarios.php">
         <h4 class="ui dividing header">Cadastro de Usuário</h4>
@@ -60,8 +58,16 @@
         </div>
     </form>
 </div>
-
+<div class="ui two item menu">
+    <a href="#" class="item">Comprar</a>
+    <a href="#" class="item">Consultar</a>
+</div>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 <script src="../../vendor/semantic/ui/dist/semantic.js"></script>
+<script>
+    $('select.dropdown')
+        .dropdown()
+    ;
+</script>
 </body>
 </html>
