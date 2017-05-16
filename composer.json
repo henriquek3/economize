@@ -1,0 +1,18 @@
+{
+  "require": {
+    "semantic/ui": "^2.2",
+    "phpclasses/autoload-css-js": ">=1.0"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https:\/\/www.phpclasses.org\/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "InformativoIPB\\Controllers\\": "controllers/",
+      "InformativoIPB\\Models\\": "models/"
+    }
+  }
+}
