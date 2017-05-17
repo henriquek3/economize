@@ -36,11 +36,21 @@
         </div>
         <div class="fields">
             <div class="sixteen wide field">
-                <label>Tipo Unidade</label>
+                <label>Tamanho</label>
                 <select class="ui fluid dropdown">
                     <option></option>
-                    <option value="1">Quilo</option>
-                    <option value="2">Pacote</option>
+                    <option value="1">5Kg</option>
+                    <option value="2">900g</option>
+                </select>
+            </div>
+        </div>
+        <div class="fields">
+            <div class="sixteen wide field">
+                <label>Marca</label>
+                <select class="ui fluid dropdown">
+                    <option></option>
+                    <option value="1">Nestle</option>
+                    <option value="2">Zaeli</option>
                 </select>
             </div>
         </div>
@@ -51,7 +61,13 @@
             </div>
         </div>
     </form>
+    <button class="ui green basic button">Tamanhos</button>
+    <button class="ui green labeled icon basic button">
+        <i class="icon user"></i>
+        Marcas
+    </button>
 </div>
+
 <div class="ui green bottom fixed two item inverted menu">
     <a href="#" class="item">Comprar</a>
     <a href="#" class="item">Consultar</a>
