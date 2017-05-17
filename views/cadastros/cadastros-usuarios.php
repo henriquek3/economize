@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="ui four item menu">
+<div class="ui green top fixed four item inverted menu">
     <a href="cadastros-usuarios.php" class="item active">Usuario</a>
     <a href="cadastros-mercados.php" class="item">Mercado</a>
     <a href="cadastros-produtos.php" class="item">Produto</a>
@@ -58,7 +58,7 @@
         </div>
     </form>
 </div>
-<div class="ui two item menu">
+<div class="ui green bottom fixed two item inverted menu">
     <a href="#" class="item">Comprar</a>
     <a href="#" class="item">Consultar</a>
 </div>

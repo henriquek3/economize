@@ -17,13 +17,11 @@
 </head>
 <body>
 
-<div class="ui five item menu">
+<div class="ui green top fixed four item inverted menu">
     <a href="cadastros-usuarios.php" class="item">Usuario</a>
     <a href="cadastros-mercados.php" class="item">Mercado</a>
     <a href="cadastros-produtos.php" class="item">Produto</a>
     <a href="cadastros-marcas.php" class="item active">Marcas</a>
-    <a href="#" class="item">Comprar</a>
-    <a href="#" class="item">Consultar</a>
 </div>
 
 <div class="ui container" style="padding-top: 10px">
@@ -44,6 +42,10 @@
             </div>
         </div>
     </form>
+</div>
+<div class="ui green bottom fixed two item inverted menu">
+    <a href="#" class="item">Comprar</a>
+    <a href="#" class="item">Consultar</a>
 </div>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
