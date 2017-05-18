@@ -19,7 +19,7 @@
         <i class="large home icon"></i>
     </div>
     <div class="ui green icon button">
-        <i class="large user icon"></i>
+        <i class="shopping basket icon"></i>
     </div>
 </div>
 
@@ -27,7 +27,7 @@
 <div class="ui green bottom fixed two item inverted menu">
     <a href="#" class="item">
         <i class="shop icon"></i>
-        Comprar
+        Lista
     </a>
     <a href="#" class="item">
         <i class="bar chart icon"></i>
@@ -37,28 +37,23 @@
 
 
 <div class="ui sidebar vertical menu">
-    <div class="item">
-        <div class="header"></div>
-        <div class="menu">
-            <a class="item"></a>
-            <a class="item"></a>
-            <img class="ui avatar image" src="https://placehold.it/350x150">
-            <span>Username</span>
-        </div>
+    <div class="item" style="background-color: #16ab39">
+        <img class="ui tiny avatar image" src="https://semantic-ui.com/images/avatar2/large/molly.png">
+        <span style="color: white;font: 'Roboto Bk';font-size: large">Username</span>
     </div>
     <div class="item">
         <div class="header">Produtos</div>
         <div class="menu">
             <a class="item">Novo Produto</a>
-            <a class="item">Marcas</a>
-            <a class="item">Unidades</a>
+            <a class="item">Marca</a>
+            <a class="item">Quantidade</a>
             <a class="item">Medidas</a>
         </div>
     </div>
     <div class="item">
-        <div class="header">Mercados</div>
+        <div class="header">Estabelecimento</div>
         <div class="menu">
-            <a class="item">Novo Mercado</a>
+            <a class="item">Novo Estabelecimento</a>
         </div>
     </div>
     <div class="item">

@@ -11,52 +11,31 @@
 
 <div class="ui container" style="padding-top: 50px">
 
+    <h3 class="ui dividing centered aligned header">Lista de Produtos</h3>
     <form class="ui form" method="post" action="#" style="padding-top: 15px">
-        <form class="ui grid">
+        <div class="ui grid">
             <div class="sixteen wide field">
                 <label>Tipo</label>
-                <select class="ui fluid dropdown disabled">
+                <select class="ui fluid dropdown">
                     <option></option>
-                    <option value="1" selected>Compra</option>
+                    <option value="1">Compra</option>
+                    <option value="2">Orçamento</option>
                 </select>
             </div>
             <div class="sixteen wide field">
                 <label>Mercado</label>
-                <select class="ui fluid dropdown disabled">
+                <select class="ui fluid dropdown">
                     <option></option>
-                    <option value="1" selected>Tropical Supermercados</option>
+                    <option value="1">Compra</option>
+                    <option value="2">Orçamento</option>
                 </select>
             </div>
-            <button class="ui basic button">Adicionar Item</button>
-        </form>
-
-<div class="fields">
-    <div class="sixteen wide column">
-        <table class="ui green celled unstackable table">
-            <thead>
-            <tr>
-                <th>Produto</th>
-                <th class="center aligned">Marca</th>
-                <th class="center aligned">Un</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Nescau</td>
-                <td class="center aligned">Nestlé</td>
-                <td class="center aligned">900g</td>
-            </tr>
-            </tbody>
-            <tfoot>
-            <tr>
-                <th></th>
-                <th></th>
-                <th></th>
-            </tr>
-            </tfoot>
-        </table>
-    </div>
-</div>
+            <div class="sixteen wide field" style="padding-top: 10px" align="center">
+                <button class="ui button" type="reset">Limpar</button>
+                <button class="ui primary button" type="submit">Adicionar</button>
+            </div>
+        </div>
+    </form>
 
 </div>
 
