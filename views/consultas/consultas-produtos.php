@@ -27,7 +27,8 @@
                     <option value="1" selected>Tropical Supermercados</option>
                 </select>
             </div>
-            <button class="ui basic button">Adicionar Item</button>
+            <!-- Chamar um Modal -->
+            <button class="ui basic button">Adicionar Item | MODAL</button>
         </form>
 
 <div class="fields">
@@ -36,22 +37,25 @@
             <thead>
             <tr>
                 <th>Produto</th>
-                <th class="center aligned">Marca</th>
-                <th class="center aligned">Un</th>
+                <th class="center aligned">Qtde</th>
+                <th class="center aligned">Vl Un.</th>
+                <th class="center aligned">Vl Tl.</th>
             </tr>
             </thead>
             <tbody>
             <tr>
                 <td>Nescau</td>
-                <td class="center aligned">Nestlé</td>
-                <td class="center aligned">900g</td>
+                <td class="center aligned">2</td>
+                <td class="center aligned">8.00</td>
+                <td class="center aligned">16.00</td>
             </tr>
             </tbody>
             <tfoot>
             <tr>
                 <th></th>
                 <th></th>
-                <th></th>
+                <th>Total R$</th>
+                <th>16.00</th>
             </tr>
             </tfoot>
         </table>
