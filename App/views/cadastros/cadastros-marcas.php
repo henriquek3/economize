@@ -12,7 +12,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../../vendor/semantic/ui/dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="../../../vendor/semantic/ui/dist/semantic.css">
     <title>Usuário</title>
 </head>
 <body>
@@ -25,7 +25,7 @@
 </div>
 
 <div class="ui container" style="padding-top: 10px">
-    <form class="ui form" method="post" action="../../controllers/CUsuarios.php">
+    <form class="ui form" method="post" action="../../controllers/users.php">
         <h4 class="ui dividing header">Cadastro de Marcas</h4>
         <!-- Campos -->
         <div class="fields">
@@ -49,7 +49,7 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"
         integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="../../vendor/semantic/ui/dist/semantic.js"></script>
+<script src="../../../vendor/semantic/ui/dist/semantic.js"></script>
 <script>
     $('select.dropdown')
         .dropdown()

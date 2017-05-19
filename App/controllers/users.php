@@ -6,12 +6,12 @@
  * Time: 21:07
  */
 
-namespace Freitech\Economize;
+namespace FREITECH\Economize;
 
 
 use Couchbase\Exception;
 
-class CUsuarios
+class users
 {
     private $id;
     private $firstName;
@@ -100,22 +100,6 @@ class CUsuarios
     }
 
     /**
-     * @return mixed
-     */
-    public function getId()
-    {
-        return $this->id;
-    }
-
-    /**
-     * @param mixed $id
-     */
-    public function setId($id)
-    {
-        $this->id = $id;
-    }
-
-    /**
      * @param mixed $password
      */
     public function setPassword($password)
@@ -133,6 +117,22 @@ class CUsuarios
         }
     }
 
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
+
     public function setObjeto($args)
     {
         $this->setFirstName($args['first-name']);
@@ -141,7 +141,8 @@ class CUsuarios
         $this->setPassword($args['password']);
     }
 }
-$usuario = new CUsuarios();
+
+$usuario = new users();
 $usuario->setObjeto($_POST);
 echo $usuario->getFirstName();
 echo $usuario->getEmail();

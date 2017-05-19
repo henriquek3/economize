@@ -6,7 +6,7 @@
  * Time: 21:13
  */
 
-namespace Freitech\Economize;
+namespace FREITECH\Economize;
 
 
 class ConnectDB

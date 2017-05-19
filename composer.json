@@ -1,6 +1,7 @@
 {
   "require": {
     "semantic/ui": "^2.2",
+    "twbs/bootstrap": "^4.0.0-alpha.6",
     "phpclasses/autoload-css-js": ">=1.0"
   },
   "repositories": [
@@ -11,8 +12,8 @@
   ],
   "autoload": {
     "psr-4": {
-      "InformativoIPB\\Controllers\\": "controllers/",
-      "InformativoIPB\\Models\\": "models/"
+      "FREITECH\\Ecz\\Ctrl\\": "App/controllers/",
+      "FREITECH\\Ecz\\Mdl\\": "App/models/"
     }
   }
 }
