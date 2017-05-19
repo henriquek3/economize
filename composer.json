@@ -1,5 +1,5 @@
 {
-  "require": {
+  "require": {    
     "semantic/ui": "^2.2",
     "twbs/bootstrap": "^4.0.0-alpha.6",
     "phpclasses/autoload-css-js": ">=1.0"
