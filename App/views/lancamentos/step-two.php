@@ -28,7 +28,9 @@
                 </select>
             </div>
             <!-- Chamar um Modal -->
-            <button class="ui basic button">Adicionar Item | MODAL</button>
+            <div align="right">
+                <button class="ui green button">Adicionar Item</button>
+            </div>
         </form>
 
 <div class="fields">

@@ -11,15 +11,14 @@
 
 <div class="ui container" style="padding-top: 50px">
 
-    <h3 class="ui dividing centered aligned header">Vamos as Compras</h3>
     <form class="ui form" method="post" action="#" style="padding-top: 15px">
         <div class="ui grid">
             <div class="sixteen wide field">
-                <label>Tipo de Lista</label>
+                <label>Ocasião</label>
                 <select class="ui fluid dropdown">
                     <option></option>
-                    <option value="1">Compra</option>
-                    <option value="2">Orçamento</option>
+                    <option value="1">Estou comprando</option>
+                    <option value="2">Apenas cotando</option>
                 </select>
             </div>
             <div class="sixteen wide field">
@@ -28,6 +27,7 @@
                     <option></option>
                     <option value="1">Super Mercado Big Master</option>
                     <option value="2">Assai Atacadista</option>
+                    <option value="3">Ainda Não sei</option>
                 </select>
             </div>
             <div class="sixteen wide field" style="padding-top: 10px" align="center">
@@ -36,6 +36,30 @@
             </div>
         </div>
     </form>
+
+    <div class="ui three top steps">
+        <div class="step">
+            <i class="truck icon"></i>
+            <div class="content">
+                <div class="title">Shipping</div>
+                <div class="description">Choose your shipping options</div>
+            </div>
+        </div>
+        <div class="active step">
+            <i class="payment icon"></i>
+            <div class="content">
+                <div class="title">Billing</div>
+                <div class="description">Enter billing information</div>
+            </div>
+        </div>
+        <div class="disabled step">
+            <i class="info icon"></i>
+            <div class="content">
+                <div class="title">Confirm Order</div>
+                <div class="description">Verify order details</div>
+            </div>
+        </div>
+    </div>
 
 </div>
 
