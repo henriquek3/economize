@@ -27,7 +27,7 @@
         <div class="content">
             <form class="ui form" method="post" action="#" style="padding-top: 15px">
                 <div class="ui grid">
-                    <div class="sixteen wide field">
+                    <div class="ten wide field">
                         <label>Produto</label>
                         <select class="ui search dropdown">
                             <option></option>
@@ -39,6 +39,12 @@
                             <option value="5">Nescau</option>
                             <option value="5">Bolacha</option>
                         </select>
+                    </div>
+                    <div class="one wide field">
+                        <label>Asd</label>
+                        <button class="ui icon button">
+                            <i class="cloud icon"></i>
+                        </button>
                     </div>
 
                     <div class="sixteen wide field disabled">

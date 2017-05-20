@@ -26,7 +26,7 @@ class IndexController
                 require "app/views/home.html";
                 break;
             default:
-                echo "Não encontrado";
+                require "app/views/home.html";
         }
     }
 }
