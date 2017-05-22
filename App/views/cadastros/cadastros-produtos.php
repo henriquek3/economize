@@ -25,7 +25,7 @@
 </div>
 
 <div class="ui container" style="padding-top: 50px">
-    <form class="ui form" method="post" action="../../controllers/users.php">
+    <form class="ui form" method="post" action="#">
         <h4 class="ui dividing header">Cadastro de Produtos</h4>
         <div class="fields">
             <div class="sixteen wide field">
@@ -33,26 +33,8 @@
                 <input type="text" name="nome-produto">
             </div>
         </div>
-        <div class="fields">
-            <div class="sixteen wide field">
-                <label>Tamanho</label>
-                <select class="ui fluid dropdown">
-                    <option></option>
-                    <option value="1">5Kg</option>
-                    <option value="2">900g</option>
-                </select>
-            </div>
-        </div>
-        <div class="fields">
-            <div class="sixteen wide field">
-                <label>Marca</label>
-                <select class="ui fluid dropdown">
-                    <option></option>
-                    <option value="1">Nestle</option>
-                    <option value="2">Zaeli</option>
-                </select>
-            </div>
-        </div>
+
+
         <div class="fields">
             <div class="sixteen wide field" style="padding-top: 10px" align="center">
                 <button class="ui button" type="reset">Limpar</button>
@@ -60,11 +42,6 @@
             </div>
         </div>
     </form>
-    <button class="ui green basic button">Tamanhos</button>
-    <button class="ui green labeled icon basic button">
-        <i class="icon user"></i>
-        Marcas
-    </button>
 </div>
 
 <div class="ui green bottom fixed two item inverted menu">

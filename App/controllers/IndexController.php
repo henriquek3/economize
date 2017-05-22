@@ -25,6 +25,9 @@ class IndexController
             case 'home':
                 require "app/views/home.html";
                 break;
+            case 'lista':
+                require "app/views/lancamentos/step-one.html";
+                break;
             default:
                 require "app/views/home.html";
         }

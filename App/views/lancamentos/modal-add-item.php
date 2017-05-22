@@ -21,13 +21,13 @@
 
     <button class="ui green button">Modal</button>
 
-    <div class="ui modal">
+    <div class="ui first coupled modal">
         <i class="close icon"></i>
         <div class="header">Adicionar Item</div>
         <div class="content">
             <form class="ui form" method="post" action="#" style="padding-top: 15px">
                 <div class="ui grid">
-                    <div class="ten wide field">
+                    <div class="thirteen wide field">
                         <label>Produto</label>
                         <select class="ui search dropdown">
                             <option></option>
@@ -41,12 +41,11 @@
                         </select>
                     </div>
                     <div class="one wide field">
-                        <label>Asd</label>
-                        <button class="ui icon button">
-                            <i class="cloud icon"></i>
-                        </button>
+                        <label>Novo</label>
+                        <div id="teste" class="ui green icon button">
+                            <i class="plus icon"></i>
+                        </div>
                     </div>
-
                     <div class="sixteen wide field disabled">
                         <label>Marca</label>
                         <select class="ui fluid dropdown">
@@ -55,7 +54,6 @@
                             <option value="2">Zaeli</option>
                         </select>
                     </div>
-
                     <div class="eight wide field disabled">
                         <label>Peso/Volume</label>
                         <input type="number" name="">
@@ -71,18 +69,14 @@
                             <option value="5">Litros</option>
                         </select>
                     </div>
-
                     <div class="eight wide field">
                         <label>Quantidade</label>
                         <input type="number" name="">
                     </div>
-
                     <div class="eight wide field">
                         <label>Valor R$</label>
                         <input type="number" name="nome-produto">
                     </div>
-
-
                     <div class="sixteen wide field actions" style="padding-top: 10px" align="center">
                         <button class="ui button" type="reset">Limpar</button>
                         <button class="ui primary button" type="submit">Adicionar</button>
@@ -92,8 +86,23 @@
         </div>
     </div>
 
+    <div class="ui small second coupled modal" style="background-color: whitesmoke">
+        <i class="close icon"></i>
+        <div class="header">Incluir Produto</div>
+        <form class="ui form" method="post" action="#">
+            <div class="content">
+                <div class="sixteen wide field" style="padding: 15px">
+                    <label>Nome</label>
+                    <input type="text" name="nome-produto">
+                </div>
+            </div>
+            <div class="actions">
+                <button class="ui button" type="reset">Limpar</button>
+                <button class="ui primary button" type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
 
-</div>
 </div>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -103,8 +112,16 @@
     $('select.dropdown')
         .dropdown()
     ;
-    $('.modal')
-        .modal('attach events', '.button', 'show')
+    $('.coupled.modal')
+        .modal({
+            allowMultiple: true
+        })
+    ;
+    $('.second.modal')
+        .modal('attach events', '.plus', 'show')
+    ;
+    $('.first.modal')
+        .modal('attach events', '.green.button', 'show')
     ;
 </script>
 </body>

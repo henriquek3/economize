@@ -1,33 +1,21 @@
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="../../../vendor/semantic/ui/dist/semantic.css">
-    <title>Usuário</title>
-</head>
-<body>
-
-<div class="ui container" style="padding-top: 50px">
-
-    <form class="ui form" method="post" action="#" style="padding-top: 15px">
+<div class="ui container" style="padding-top: 20px">
+    <form class="ui form" method="post" action="">
         <div class="ui grid">
             <div class="sixteen wide field">
                 <label>Ocasião</label>
-                <select class="ui fluid dropdown">
+                <select class="ui fluid dropdown" name="ocasiao">
                     <option></option>
-                    <option value="1">Estou comprando</option>
-                    <option value="2">Apenas cotando</option>
+                    <option value="compra">Estou comprando</option>
+                    <option value="cotacao">Apenas cotando</option>
                 </select>
             </div>
             <div class="sixteen wide field">
                 <label>Onde vou comprar</label>
-                <select class="ui search dropdown">
+                <select class="ui search dropdown" name="mercado">
                     <option></option>
-                    <option value="1">Super Mercado Big Master</option>
-                    <option value="2">Assai Atacadista</option>
-                    <option value="3">Ainda Não sei</option>
+                    <option value="big master">Super Mercado Big Master</option>
+                    <option value="assai">Assai Atacadista</option>
+                    <option value="nao sei">Ainda Não sei</option>
                 </select>
             </div>
             <div class="sixteen wide field" style="padding-top: 10px" align="center">
@@ -36,16 +24,5 @@
             </div>
         </div>
     </form>
-
 </div>
 
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-<script src="../../../vendor/semantic/ui/dist/semantic.js"></script>
-<script>
-    $('select.dropdown')
-        .dropdown()
-    ;
-</script>
-</body>
-</html>
