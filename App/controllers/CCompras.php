@@ -6,7 +6,7 @@ require "../../vendor/autoload.php";
 
 use FREITECH\Ecz\Mdl\ConnectDB;
 
-class Compras
+class CCompras
 {
     private $ocasiao;
     private $mercado;
@@ -46,17 +46,22 @@ class Compras
     public function save()
     {
         $pdo = new ConnectDB();
-        $sql = "INSERT INTO compras (mercado,ocasiao) VALUES (:mercado,:ocasiao)";
-        //$sql ="DELETE FROM compras";
+        //$sql = "INSERT INTO compras (mercado,ocasiao) VALUES (:mercado,:ocasiao)";
+        $sql = "DELETE FROM compras";
         $stmt = $pdo->prepare($sql);
-        $stmt->bindParam(':mercado', $this->mercado);
-        $stmt->bindParam(':ocasiao', $this->ocasiao);
+        //$stmt->bindParam(':mercado', $this->mercado);
+        //$stmt->bindParam(':ocasiao', $this->ocasiao);
         $stmt->execute();
-        return $stmt->rowCount();
+        return $this->status($stmt->rowCount());
+    }
+
+    public function status($arg)
+    {
+        echo "Foram alteradas " . $arg . " linha com sucesso!";
     }
 }
 
-$compras = new Compras();
-$compras->setMercado($_POST['Tropical']);
-$compras->setOcasiao($_POST['Orcamento']);
+$compras = new CCompras();
+$compras->setMercado($_POST['ocasiao']);
+$compras->setOcasiao($_POST['mercado']);
 $compras->save();

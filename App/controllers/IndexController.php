@@ -28,6 +28,10 @@ class IndexController
             case 'lista':
                 require "app/views/lancamentos/step-one.html";
                 break;
+            case 'lista-add-produtos':
+                require "app/views/lancamentos/step-two.php";
+                require "app/views/lancamentos/modal-add-item.php";
+                break;
             default:
                 require "app/views/home.html";
         }

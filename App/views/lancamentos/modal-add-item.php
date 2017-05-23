@@ -6,6 +6,7 @@
  * Time: 20:24
  */
 ?>
+<!--
 <html>
 <head>
     <meta charset="UTF-8">
@@ -19,8 +20,10 @@
 
 <div class="ui container" style="padding-top: 50px">
 
-    <button class="ui green button">Modal</button>
 
+    <button class="ui green button">Modal</button>
+-->
+<div class="ui container">
     <div class="ui first coupled modal">
         <i class="close icon"></i>
         <div class="header">Adicionar Item</div>
@@ -77,7 +80,7 @@
                         <label>Valor R$</label>
                         <input type="number" name="nome-produto">
                     </div>
-                    <div class="sixteen wide field actions" style="padding-top: 10px" align="center">
+                    <div class="sixteen wide field" align="center">
                         <button class="ui button" type="reset">Limpar</button>
                         <button class="ui primary button" type="submit">Adicionar</button>
                     </div>
@@ -96,13 +99,14 @@
                     <input type="text" name="nome-produto">
                 </div>
             </div>
-            <div class="actions">
+            <div class="">
                 <button class="ui button" type="reset">Limpar</button>
                 <button class="ui primary button" type="submit">Enviar</button>
             </div>
         </form>
     </div>
-
+</div>
+<!--
 </div>
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"
@@ -126,3 +130,4 @@
 </script>
 </body>
 </html>
+-->

@@ -5,11 +5,22 @@
     $('.ui.sidebar').first()
         .sidebar('attach events', '.setting', 'show')
     ;
-    $('.button')
+    $('.setting')
         .removeClass('disable')
     ;
     $('select.dropdown')
         .dropdown()
+    ;
+    $('.coupled.modal')
+        .modal({
+            allowMultiple: true
+        })
+    ;
+    $('.second.modal')
+        .modal('attach events', '.plus', 'show')
+    ;
+    $('.first.modal')
+        .modal('attach events', '.green.button', 'show')
     ;
 </script>
 </body>

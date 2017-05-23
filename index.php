@@ -14,8 +14,5 @@ require 'App/views/menus.html';
 
 Ctrl\IndexController::renderView(Ctrl\IndexController::getUrl());
 
-if ($_POST['action'] != null) {
-}
-
 require "App/views/footer.html";
 
