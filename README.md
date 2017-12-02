@@ -1,31 +1,9 @@
 # Economize - app  
 
-### Supported Features ###
 
-Currently the following features are implemented:
 
 - **Desc**
-  - Desc
+  - Aplicativo tem a intenção de de compartilhar listas de compras para que seja possivel comparar preços de produtos em mercados diferentes em uma mesma região.
+  - Com a possivel consulta de produtos, eu posso saber quanto a minha compra vai dar em um determinado mercado antes de passar no caixa, basta registrar os produtos no aplicativo.
  
   
-- **Desc** *1
-  - MP3
-  - WAVE (PCM, IeeeFloat, GSM, ADPCM,...)
-  - FLAC
-  - AAC
-  - AC3
-  - WMA
-  - Raw data
-  - OGG-Vorbis (through NVorbis)
-  - FFmpeg (lots of additional formats, see [CSCore.Ffmpeg](https://github.com/filoe/cscore/tree/master/CSCore.Ffmpeg))
-- **FFmpeg support**
-  - Supported through [CSCore.Ffmpeg](https://github.com/filoe/cscore/tree/master/CSCore.Ffmpeg))
-- **Speaker Output**
-  - WaveOut
-  - DirectSoundOut (realtime streaming)
-  - WASAPI (loop- and event-callback + exclusive mode available)
-  - XAudio2
-- **Recording**
-  - WaveIn
-  - WASAPI (loop- and event-callback + exclusive mode available)
-  - WASAPI loopback capture (capture output from soundcard)
